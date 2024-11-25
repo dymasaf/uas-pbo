@@ -11,7 +11,7 @@ import java.sql.SQLException;
 public class DatabaseConnection {
     public static Connection connect() {
         try {
-            String url = "jdbc:mysql://localhost:3306/toko";  // Gunakan nama database yang telah dibuat
+            String url = "jdbc:mysql://localhost:3306/toko_sederhana";  // Gunakan nama database yang telah dibuat
             String user = "root";  // Ganti dengan username MySQL Anda
             String password = "";  // Ganti dengan password MySQL Anda
             return DriverManager.getConnection(url, user, password);
